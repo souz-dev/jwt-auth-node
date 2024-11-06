@@ -1,0 +1,24 @@
+{
+  "name": "jwt-auth-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/souz-dev/jwt-auth-node.git",
+  "author": "souz-dev <souz.developer@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/node": "^22.9.0",
+    "eslint": "^9.14.0",
+    "globals": "^15.12.0",
+    "prisma": "^5.22.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.13.0"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0"
+  }
+}
