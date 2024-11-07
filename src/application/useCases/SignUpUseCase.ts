@@ -8,9 +8,7 @@ interface IInput {
 }
 
 type IOutput = void;
-// funcionalidade
 export class SignUpUseCase {
-  // metodo para executar a funcionalidade
   async execute({ email, name, password }: IInput): Promise<IOutput> {
     const accountAlreadyExists = await prismaClient.account.findUnique({
       where: {
