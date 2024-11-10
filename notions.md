@@ -18,9 +18,12 @@ Ela recebem um Input e devolve um Output
 
 ## controller
 validações e orquestração
+
 <!--
 [] - mycontant ver aulta
 [] - singoton | unica instancia
 [] -  jsStack
 [] -  inversão de dependências
+[] -  Factory Pattern
+[] -  Currying
 -->
